@@ -1,3 +1,58 @@
-/* 
-    General Styles
-*/
+body {
+    margin: 0;
+    font-family:  'Roboto', 'Oxygen';
+    /* background-color: #1d1f3a  !important; */
+    background-color:  #232885  !important;
+    color:  rgb(206, 42, 6) !important;
+    font-size: 2rem;
+  }
+  
+  
+  
+  .imagen-planetas{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 10% !important;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px rgb(29, 60, 170);
+    margin-left: 5rem;
+  
+  }
+  .line{
+    border: rgb(206, 42, 6) 0.1px;
+    box-shadow: rgb(29, 60, 170);
+   
+  }
+  .navbar{
+    background-color: #232885 !important;
+    color:  rgb(206, 42, 6)  !important;
+    border-bottom:  rgb(206, 42, 6)  solid 0.1px;
+    box-shadow: 0px 0px 8px rgb(29, 60, 170);
+    margin-bottom: 3rem;
+  }
+  .texto-nav{
+    color: rgb(206, 42, 6)  !important;
+  }
+  
+  .imagen-personaje{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 10% !important;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px rgb(29, 60, 170);
+    margin-left: 5rem;
+  }
+  .imagen-vehiculo{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 10% !important;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px rgb(29, 60, 170);
+    margin-left: 5rem;
+  }
+  .texto{
+    font-size: 20px;
+  }
