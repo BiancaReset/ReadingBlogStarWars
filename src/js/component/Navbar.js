@@ -16,7 +16,7 @@ function Navbar(props) {
           className="navbar-brand  texto-nav "
           aria-current="page"
         >
-          STAR-WARS
+          StarWars
         </Link>
         <button
           className="navbar-toggler "
@@ -33,11 +33,10 @@ function Navbar(props) {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item dropdown">
               <button
-                class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                FAVORITOS
+                className="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mis Favoritos
               </button>
               <ul className="dropdown-menu dropdown-menu-dark">
-                <li>Lista de Favoritos</li>
                 {store.favoritesList ? store.favoritesList.map((favorite) => {
                   return (
                     <li>
