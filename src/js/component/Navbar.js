@@ -37,6 +37,7 @@ function Navbar(props) {
                 Mis Favoritos
               </button>
               <ul className="dropdown-menu dropdown-menu-dark">
+                <li>Lista de Favoritos</li>
                 {store.favoritesList ? store.favoritesList.map((favorite) => {
                   return (
                     <li>

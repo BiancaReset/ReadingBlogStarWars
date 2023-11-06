@@ -29,7 +29,7 @@ function Card(props) {
           ) : null}
           <button
             className={`btn btn-outline-danger`}
-            onClick={() => { store.favoritesList ? actions.addFavorite(props.name): "" }}
+            onClick={() => { actions.addFavorite(props.name) }}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

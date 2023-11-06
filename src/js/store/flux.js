@@ -45,7 +45,7 @@ const getState = ({ setStore, getStore, getActions }) => {
                 url: ""
             },
             listOfVehicles: [],
-            listOfFavorites: []
+            favoritesList: ["Favoritos", "Planetas"]
         },
         actions: {
             getPeople: () => {
@@ -87,7 +87,7 @@ const getState = ({ setStore, getStore, getActions }) => {
             addFavorite: (favorite) => {
                 const store = getStore();
                 if (store.favoritesList.includes(favorite)) {
-                    return alert("El favorito ya fue añadido")
+                    return alert("El Favorito ya fue añadido")
                 }
                 setStore({ favoritesList: [...store.favoritesList, favorite] })
                 return console.log(store.favoritesList)
